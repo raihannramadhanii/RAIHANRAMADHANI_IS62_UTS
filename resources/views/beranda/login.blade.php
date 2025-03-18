@@ -39,7 +39,7 @@
 
                             <!-- Submit Button -->
                             <div class="d-flex justify-content-center">
-                                <button type="submit" class="btn btn-primary col-6">Sign In</button>
+                                <a href="/beranda" class="btn btn-primary"> Sign In </a>
                             </div>
                         </form>
                     </div>

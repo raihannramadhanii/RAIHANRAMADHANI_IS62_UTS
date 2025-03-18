@@ -13,3 +13,11 @@ Route::get('/login', function () {
 Route::get('/beranda', function () {
     return view('beranda.beranda');
 });
+
+Route::get('/menu', function () {
+    return view('menu.menu');
+});
+
+Route::get('/pendaftaran', function () {
+    return view('menu.pendaftaran');
+});
