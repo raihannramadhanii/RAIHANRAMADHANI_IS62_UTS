@@ -1,9 +1,9 @@
 @extends('layout.master')
 @section('title')
-    Form Penitip
+    Form Penitipan
 @endsection
 
-@section('penitip', 'active')
+@section('penitipan', 'active')
 
 @section('konten')
 
@@ -30,6 +30,11 @@
     <div class="form-section"> <!-- Added div with class "form-section" -->
         <form action="" method="POST">
             @csrf
+
+            <div class="form-group" style="margin-top: 30px;" style="margin-bottom: 25px;">
+                <label for="name">ID Penitipan</label>
+                <input type="text" class="form-control" style="margin-top: 15px;" id="id" name="id" required>
+            </div>
 
             <div class="form-group" style="margin-top: 30px;" style="margin-bottom: 25px;">
                 <label for="name">Jumlah Penitipan</label>
