@@ -57,7 +57,7 @@
             </div>
 
             <div class="d-grid gap-2 col-4 mx-auto" style="margin-top: 40px;">
-                <button class="btn btn-primary"><a class="nav-link" href="/penitip" type="button">Kirim</a></button>
+                <button class="btn btn-primary"><a class="nav-link" href="/penitipan" type="button">Kirim</a></button>
             </div>
 
 
