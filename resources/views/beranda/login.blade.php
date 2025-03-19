@@ -22,7 +22,6 @@
                             <div class="mb-3">
                                 <label for="username" class="form-label">Username</label>
                                 <input type="email" class="form-control" id="username" name="username" required placeholder="Enter your email">
-                                <div class="form-text">Please enter your registered email address.</div>
                             </div>
 
                             <!-- Password Input -->
@@ -31,21 +30,12 @@
                                 <input type="password" class="form-control" id="password" name="password" required placeholder="Enter your password">
                             </div>
 
-                            <!-- Remember Me Checkbox -->
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="remember" name="remember">
-                                <label class="form-check-label" for="remember">Remember Me</label>
-                            </div>
-
                             <!-- Submit Button -->
                             <div class="d-flex justify-content-center">
-                                <a href="/beranda" class="btn btn-primary"> Sign In </a>
+                                <a href="/beranda" class="btn btn-primary"> Login </a>
                             </div>
                         </form>
-                    </div>
-                    <div class="card-footer text-center">
-                        <a href="/forgot-password">Forgot Password?</a> | <a href="/register">Create an Account</a>
-                    </div>
+
                 </div>
             </div>
         </div>

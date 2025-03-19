@@ -21,3 +21,13 @@ Route::get('/menu', function () {
 Route::get('/pendaftaran', function () {
     return view('menu.pendaftaran');
 });
+
+Route::get('/penitipan', function () {
+    return view('menu.penitipan');
+});
+
+Route::get('/pembayaran', function () {
+    return view('menu.pembayaran');
+});
+
+
