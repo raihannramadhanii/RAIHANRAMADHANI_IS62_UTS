@@ -24,7 +24,7 @@
 <div class="container mt-5">
     <button><a href="beranda"><i class="fa-solid fa-arrow-left"></i></a></button>
     <h2 class="text-center mb-4">
-        Form Penitip</h2>
+        Form Penitipan</h2>
     <hr class="custom-hr">
 
     <div class="form-section"> <!-- Added div with class "form-section" -->
@@ -32,23 +32,23 @@
             @csrf
 
             <div class="form-group" style="margin-top: 30px;" style="margin-bottom: 25px;">
-                <label for="name">ID Pendaftaran</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="id" name="id" required>
+                <label for="name">Jumlah Penitipan</label>
+                <input type="text" class="form-control" style="margin-top: 15px;" id="jumlah" name="jumlah" required>
             </div>
 
             <div class="form-group" style="margin-top: 30px;" style="margin-bottom: 25px;">
-                <label for="email">Nama Lengkap</label>
+                <label for="email">Kode Makanan</label>
+                <input type="text" class="form-control" style="margin-top: 15px;" id="kode" name="kode" required>
+            </div>
+
+            <div class="form-group" style="margin-top: 30px; margin-bottom: 30px;">
+                <label for="password">Nama Makanan</label>
                 <input type="text" class="form-control" style="margin-top: 15px;" id="name" name="name" required>
             </div>
 
             <div class="form-group" style="margin-top: 30px; margin-bottom: 30px;">
-                <label for="password">Alamat</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="name" name="name" required>
-            </div>
-
-            <div class="form-group" style="margin-top: 30px; margin-bottom: 30px;">
-                <label for="password">No Hp</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="hp" name="hp" required>
+                <label for="password">Harga Makanan</label>
+                <input type="text" class="form-control" style="margin-top: 15px;" id="name" name="harga" required>
             </div>
 
             <div class="d-grid gap-2 col-4 mx-auto" style="margin-top: 40px;">

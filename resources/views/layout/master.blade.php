@@ -18,7 +18,7 @@
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link active" href="beranda">
-                  Beranda
+                  penitip
                 </a>
               </li>
               <li class="nav-item">

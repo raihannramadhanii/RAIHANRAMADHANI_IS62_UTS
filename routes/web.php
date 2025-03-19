@@ -23,11 +23,11 @@ Route::get('/form-penitip', function () {
 });
 
 Route::get('/penitipan', function () {
-    return view('menu.penitipan');
+    return view('data-penitipan.penitipan');
 });
 
-Route::get('/pembayaran', function () {
-    return view('menu.pembayaran');
+Route::get('/form-penitipan', function () {
+    return view('data-penitipan.form-penitipan');
 });
 
 
