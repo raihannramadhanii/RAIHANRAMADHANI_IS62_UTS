@@ -1,66 +1,66 @@
 @extends('layout.master')
 @section('title')
-    Form Penitipan
+    Data Penitip
+@endsection
+@section('nm_hal')
+Data Penitip
 @endsection
 
-@section('penitipan', 'active')
+@section('penitip', 'active')
 
 @section('konten')
 
-<style>
-    .custom-hr {
-        border-top: solid black;
-        width: 25%; /* You can adjust the width of the line */
-        margin: 0 auto; /* Centers the line */
-        margin-top: -15px; /* Adjust this value to raise the line */
-    }
-
-    .form-section {
-        margin-top: 30px; /* Adjust this value to control the space above the form */
-    }
-</style>
-
-
-<div class="container mt-5">
-    <button><a href="beranda"><i class="fa-solid fa-arrow-left"></i></a></button>
-    <h2 class="text-center mb-4">
-        Form Penitipan</h2>
-    <hr class="custom-hr">
-
-    <div class="form-section"> <!-- Added div with class "form-section" -->
-        <form action="" method="POST">
-            @csrf
-
-            <div class="form-group" style="margin-top: 30px;" style="margin-bottom: 25px;">
-                <label for="name">Jumlah Penitipan</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="jumlah" name="jumlah" required>
-            </div>
-
-            <div class="form-group" style="margin-top: 30px;" style="margin-bottom: 25px;">
-                <label for="email">Kode Makanan</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="kode" name="kode" required>
-            </div>
-
-            <div class="form-group" style="margin-top: 30px; margin-bottom: 30px;">
-                <label for="password">Nama Makanan</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="name" name="name" required>
-            </div>
-
-            <div class="form-group" style="margin-top: 30px; margin-bottom: 30px;">
-                <label for="password">Harga Makanan</label>
-                <input type="text" class="form-control" style="margin-top: 15px;" id="name" name="harga" required>
-            </div>
-
-            <div class="d-grid gap-2 col-4 mx-auto" style="margin-top: 40px;">
-                <button class="btn btn-primary" type="button">Kirim</button>
-            </div>
-
-
-
-        </form>
-    </div>
+<div class="container table-container">
+    <span class="float-end"><a href="/form-penitip" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>ID Pendaftaran</th>
+                <th>Nama Lengkap</th>
+                <th>Alamat</th>
+                <th>No HP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>12345</td>
+                <td>Raihan Chantika</td>
+                <td>Mibo City</td>
+                <td>08123456</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>86760</td>
+                <td>Putri Nabilah</td>
+                <td>Ketapang</td>
+                <td>086457756</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>77545</td>
+                <td>Maharani Erfina</td>
+                <td>Lampaseh Kota</td>
+                <td>085654766</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>454455</td>
+                <td>Aulia Safda</td>
+                <td>Lambaro</td>
+                <td>08778677</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>187879008</td>
+                <td>Dinisaurus</td>
+                <td>Neusu</td>
+                <td>086785787</td>
+            </tr>
+            <!-- Baris tambahan bisa ditambahkan di sini -->
+        </tbody>
+    </table>
 </div>
 
-
 @endsection
-

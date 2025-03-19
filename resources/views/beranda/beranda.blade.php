@@ -6,15 +6,23 @@
 @section('beranda', 'active')
 
 @section('konten')
-
-    <div class="container" style="margin-top: 50px;">
-        <h1 style="margin-bottom: 80px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="card text-bg-dark">
+    <img src="image/jajanan.jpeg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small>Last updated 3 mins ago</small></p>
     </div>
+</div>
+{{-- <div class="card text-bg-dark">
+    <img src="image/jajanan.jpeg" class="card-img" alt="...">
+    <div class="card-img-overlay d-flex justify-content-start align-items-center">
+        <div class="text-left">
+            <h5 class="card-title">Jajanan</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati explicabo minus deserunt odio incidunt laudantium voluptatum saepe, quis quas cum perferendis ullam provident unde minima molestias, quae totam voluptate et!</p>
+            <p class="card-text"><small>. Nulla unde quas ipsum dolore saepe delectus aliquid sequi ea quod cumque dolorem tempore blanditiis, aspernatur eos fugiat quidem error quos alias!</small></p>
+        </div>
+    </div>
+</div> --}}
 
-
-    <button type="button" class="btn btn-secondary btn-lg" style="margin-top: 50px; margin-left: 110px;">Hubungi Kami</button>
-
-
-    @endsection
-
+@endsection

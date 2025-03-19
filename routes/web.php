@@ -14,12 +14,12 @@ Route::get('/beranda', function () {
     return view('beranda.beranda');
 });
 
-Route::get('/menu', function () {
-    return view('menu.menu');
+Route::get('/penitip', function () {
+    return view('data-penitip.penitip');
 });
 
-Route::get('/pendaftaran', function () {
-    return view('menu.pendaftaran');
+Route::get('/form-penitip', function () {
+    return view('data-penitip.form-penitip');
 });
 
 Route::get('/penitipan', function () {

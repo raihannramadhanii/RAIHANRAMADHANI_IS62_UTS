@@ -6,11 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/all.css')}}">
-    @yield('css')
     <title>@yield('title')</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-3 col-lg-2 p-3 bg-light" >
+            <h5><img src="{{ asset('/image/logo.png') }}" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
+                Penitipan Sederhana</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="beranda">
+                  Beranda
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="penitip">
+                  Data Penitip
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Data Penitipan
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Data Penjualan
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Data Makanan
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Data Pembayaran
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="#">
+                  Logout
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-9 col-lg-10 p-4">
+            <h1>Beranda</h1>
+            @yield('konten')
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="{{asset('js/all.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+{{-- <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <nav class="nav-item">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
@@ -41,13 +104,4 @@
 
             </div>
         </div>
-    </nav>
-
-    @yield('konten')
-
-
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('js/all.js')}}"></script>
-    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-</body>
-</html>
+    </nav> --}}
