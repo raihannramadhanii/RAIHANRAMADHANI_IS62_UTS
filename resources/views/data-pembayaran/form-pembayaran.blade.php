@@ -55,7 +55,7 @@
                 <button class="btn btn-primary"><a class="nav-link" href="/pembayaran" type="button">Simpan</a></button>
             </div>
             <div class="d-grid gap-2 col-4 mx-auto" style="margin-top: 10px;">
-                <button class="btn btn-primary"><a class="nav-link" href="/pembayaran" type="button">Cetak</a></button>
+                <button class="btn btn-primary"><a class="nav-link" href="/struk" type="button">Cetak</a></button>
             </div>
 
 

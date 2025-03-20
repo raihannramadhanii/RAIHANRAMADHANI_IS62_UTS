@@ -46,4 +46,10 @@ Route::get('/form-pembayaran', function () {
     return view('data-pembayaran.form-pembayaran');
 });
 
+Route::get('/struk', function () {
+    return view('data-pembayaran.struk');
+});
+
+
+
 
