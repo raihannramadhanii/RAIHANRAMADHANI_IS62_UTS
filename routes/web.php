@@ -34,4 +34,8 @@ Route::get('/penjualan', function () {
     return view('data-penjualan.penjualan');
 });
 
+Route::get('/form-penjualan', function () {
+    return view('data-penjualan.form-penjualan');
+});
+
 
