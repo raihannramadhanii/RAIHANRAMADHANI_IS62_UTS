@@ -20,6 +20,7 @@ Data Pembayaran
                 <th>Kode Penjualan</th>
                 <th>Total Pembayaran</th>
                 <th>Jenis Pembayaran</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +30,8 @@ Data Pembayaran
                 <td>R20</td>
                 <td>Rp.16.000,-</td>
                 <td>Cash</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -36,6 +39,8 @@ Data Pembayaran
                 <td>T30</td>
                 <td>Rp.26.000,-</td>
                 <td>Cash</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -43,6 +48,8 @@ Data Pembayaran
                 <td>CG25</td>
                 <td>Rp.21.000,-</td>
                 <td>Transfer</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>4</td>
@@ -50,6 +57,8 @@ Data Pembayaran
                 <td>OND30</td>
                 <td>Rp.26.000,-</td>
                 <td>Transfer</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>5</td>
@@ -57,6 +66,8 @@ Data Pembayaran
                 <td>PSC20</td>
                 <td>Rp.16.000,-</td>
                 <td>Cash</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <!-- Baris tambahan bisa ditambahkan di sini -->
         </tbody>

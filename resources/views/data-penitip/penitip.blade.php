@@ -30,34 +30,44 @@ Data Penitip
                 <td>Raihan Chantika</td>
                 <td>Mibo City</td>
                 <td>08123456</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>2</td>
                 <td>86760</td>
                 <td>Putri Nabilah</td>
                 <td>Ketapang</td>
                 <td>086457756</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>3</td>
                 <td>77545</td>
                 <td>Maharani Erfina</td>
                 <td>Lampaseh Kota</td>
                 <td>085654766</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>4</td>
                 <td>454455</td>
                 <td>Aulia Safda</td>
                 <td>Lambaro</td>
                 <td>08778677</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>5</td>
                 <td>187879008</td>
                 <td>Dinisaurus</td>
                 <td>Neusu</td>
                 <td>086785787</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <!-- Baris tambahan bisa ditambahkan di sini -->
         </tbody>

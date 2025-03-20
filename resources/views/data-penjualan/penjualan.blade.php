@@ -20,6 +20,7 @@ Data Penjualan
                 <th>ID Penitipan</th>
                 <th>Tgl Transaksi</th>
                 <th>Jumlah Penjualan</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +30,8 @@ Data Penjualan
                 <td>12345</td>
                 <td>01/01/2025</td>
                 <td>20 Pcs</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -36,6 +39,8 @@ Data Penjualan
                 <td>86760</td>
                 <td>01/01/2025</td>
                 <td>30 Pcs</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -43,6 +48,8 @@ Data Penjualan
                 <td>77545</td>
                 <td>01/01/2025</td>
                 <td>25 Pcs</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>4</td>
@@ -50,6 +57,8 @@ Data Penjualan
                 <td>454455</td>
                 <td>02/02/2025</td>
                 <td>30 Pcs</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>5</td>
@@ -57,6 +66,8 @@ Data Penjualan
                 <td>18787</td>
                 <td>02/02/2025</td>
                 <td>20 Pcs</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <!-- Baris tambahan bisa ditambahkan di sini -->
         </tbody>

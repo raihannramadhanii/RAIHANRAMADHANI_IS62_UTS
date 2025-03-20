@@ -21,6 +21,7 @@ Data Penitipan
                 <th>Kode Makanan</th>
                 <th>Nama Makanan</th>
                 <th>Harga Makanan</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -31,6 +32,8 @@ Data Penitipan
                 <td>KB-R1</td>
                 <td>Risol</td>
                 <td>Rp.3.000,-</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -39,6 +42,8 @@ Data Penitipan
                 <td>KB-T1</td>
                 <td>Tempe</td>
                 <td>Rp.2000,-</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -47,6 +52,8 @@ Data Penitipan
                 <td>CG</td>
                 <td>Canai Gula</td>
                 <td>Rp.2500,-</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>4</td>
@@ -55,6 +62,8 @@ Data Penitipan
                 <td>OND</td>
                 <td>Onde-Onde</td>
                 <td>Rp.1000,-</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <tr>
                 <td>5</td>
@@ -63,6 +72,8 @@ Data Penitipan
                 <td>PSC</td>
                 <td>Pisang Coklat</td>
                 <td>Rp.2000,-</td>
+                <td><button type="button" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
             <!-- Baris tambahan bisa ditambahkan di sini -->
         </tbody>
