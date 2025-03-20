@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-    Form Penitipan
+
 @endsection
 
 @section('penitipan', 'active')

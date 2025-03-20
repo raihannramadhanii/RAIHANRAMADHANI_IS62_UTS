@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-    Form Penitip
+
 @endsection
 
 @section('penitip', 'active')
@@ -10,7 +10,7 @@
 <style>
     .custom-hr {
         border-top: solid black;
-        width: 25%; /* You can adjust the width of the line */
+        width: 20%; /* You can adjust the width of the line */
         margin: 0 auto; /* Centers the line */
         margin-top: -15px; /* Adjust this value to raise the line */
     }

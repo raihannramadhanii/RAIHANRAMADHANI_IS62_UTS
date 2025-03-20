@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-    Form Penjualan
+
 @endsection
 
 @section('penjualan', 'active')
