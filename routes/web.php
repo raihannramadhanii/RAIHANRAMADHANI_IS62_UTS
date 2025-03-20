@@ -38,4 +38,8 @@ Route::get('/form-penjualan', function () {
     return view('data-penjualan.form-penjualan');
 });
 
+Route::get('/pembayaran', function () {
+    return view('data-pembayaran.pembayaran');
+});
+
 
