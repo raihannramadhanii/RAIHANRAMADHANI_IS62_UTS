@@ -11,7 +11,7 @@ Data Pembayaran
 @section('konten')
 
 <div class="container table-container">
-    <span class="float-end"><a href="/form-pembayaran" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
+    <span class="float-end mb-5"><a href="/form-pembayaran" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
     <table class="table table-bordered">
         <thead>
             <tr>

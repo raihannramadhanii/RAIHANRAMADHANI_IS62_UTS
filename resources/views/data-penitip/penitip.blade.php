@@ -11,7 +11,7 @@ Data Penitip
 @section('konten')
 
 <div class="container table-container">
-    <span class="float-end"><a href="/form-penitip" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
+    <span class="float-end mb-5"><a href="/form-penitip" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -20,6 +20,7 @@ Data Penitip
                 <th>Nama Lengkap</th>
                 <th>Alamat</th>
                 <th>No HP</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>

@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="login">
+                <a class="nav-link text-danger" href="ogin">
                   Logout
                 </a>
               </li>
