@@ -32,13 +32,8 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="penjualan">
                   Data Penjualan
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Data Makanan
                 </a>
               </li>
               <li class="nav-item">

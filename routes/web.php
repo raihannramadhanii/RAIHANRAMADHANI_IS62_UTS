@@ -30,4 +30,8 @@ Route::get('/form-penitipan', function () {
     return view('data-penitipan.form-penitipan');
 });
 
+Route::get('/penjualan', function () {
+    return view('data-penjualan.penjualan');
+});
+
 
