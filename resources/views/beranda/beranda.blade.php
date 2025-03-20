@@ -9,9 +9,14 @@
 <div class="card text-bg-dark">
     <img src="image/jajanan.jpeg" class="card-img" alt="...">
     <div class="card-img-overlay">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        <h1 class="card-title">Jajanan</h1>
+        <b>
+            <p class="card-text" style="font-size: 23px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit dignissimos commodi officiis sequi.</p>
+          </b>
+        <p class="card-text"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos commodi officiis sequi magni quidem sunt cupiditate ad saepe rerum abanimi quos atque
+            , placeat labore, nobis, laudantium aliquid temporibus explicabo! officiis sequi magni quidem sunt cupiditate ad saepe rerum abanimi quos atque
+            , placeat labore, nobis, laudantium aliquid temporibus explicabo</small></p>
     </div>
 </div>
 {{-- <div class="card text-bg-dark">
