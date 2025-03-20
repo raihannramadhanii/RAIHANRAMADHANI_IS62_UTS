@@ -12,9 +12,13 @@
     <div class="container-fluid">
         <div class="row">
           <!-- Sidebar -->
-          <div class="col-md-3 col-lg-2 p-3 bg-light" >
-            <h5><img src="{{ asset('/image/logo.png') }}" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
-                Penitipan Sederhana</h5>
+          <strong>
+          <a class="navbar-brand navbar-collapse justify-content-start" style="font-size:13pt" href="#">
+          <div class="col-md-4 col-lg-2 p-3 bg-light" >
+            <img src="{{ asset('/image/logo.png') }}" alt="logo" width="50" height="50" class="d-inline-block align-justify-text-top">
+             Penitipan Sederhana
+        </a>
+    </strong>
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link active" href="beranda">
