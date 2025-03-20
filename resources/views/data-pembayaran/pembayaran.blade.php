@@ -13,7 +13,7 @@ Data Pembayaran
 <div class="container table-container">
     <span class="float-end mb-5"><a href="/form-pembayaran" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
     <table class="table table-bordered">
-        <thead>
+        <thead class="table-dark">
             <tr>
                 <th>No</th>
                 <th>Kode Pembayaran</th>

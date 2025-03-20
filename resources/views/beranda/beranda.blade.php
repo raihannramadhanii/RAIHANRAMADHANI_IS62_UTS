@@ -9,10 +9,11 @@
 <div class="card text-bg-dark">
     <img src="image/jajanan.jpeg" class="card-img" alt="...">
     <div class="card-img-overlay">
-        <h1 class="card-title">Jajanan</h1>
-        <b>
-            <p class="card-text" style="font-size: 23px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit dignissimos commodi officiis sequi.</p>
-          </b>
+        <h1 class="card-title" style="margin-bottom: 10px;">Jajanan</h1>
+<b>
+    <p class="card-text" style="font-size: 23px; margin-top: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit dignissimos commodi officiis sequi.</p>
+</b>
+
         <p class="card-text"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Dignissimos commodi officiis sequi magni quidem sunt cupiditate ad saepe rerum abanimi quos atque
             , placeat labore, nobis, laudantium aliquid temporibus explicabo! officiis sequi magni quidem sunt cupiditate ad saepe rerum abanimi quos atque
