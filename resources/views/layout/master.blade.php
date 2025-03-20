@@ -22,7 +22,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="penitip">
+                <a class="nav-link @yield('penitip')" href="penitip">
                   Data Penitip
                 </a>
               </li>
@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-danger" href="#">
+                <a class="nav-link text-danger" href="Logout">
                   Logout
                 </a>
               </li>
@@ -50,7 +50,7 @@
           </div>
 
           <div class="col-md-9 col-lg-10 p-4">
-            <h1>Beranda</h1>
+            <h1>@yield('title')</h1>
             @yield('konten')
           </div>
 

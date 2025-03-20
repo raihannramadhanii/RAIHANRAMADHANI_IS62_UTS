@@ -42,4 +42,8 @@ Route::get('/pembayaran', function () {
     return view('data-pembayaran.pembayaran');
 });
 
+Route::get('/form-pembayaran', function () {
+    return view('data-pembayaran.form-pembayaran');
+});
+
 
